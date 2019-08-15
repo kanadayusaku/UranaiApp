@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE7BE2522FEFC2800E1D69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7BE2422FEFC2800E1D69B /* AppDelegate.swift */; };
+		BAE7BE2722FEFC2800E1D69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7BE2622FEFC2800E1D69B /* ViewController.swift */; };
+		BAE7BE2A22FEFC2900E1D69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7BE2822FEFC2900E1D69B /* Main.storyboard */; };
+		BAE7BE2C22FEFC2900E1D69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE7BE2B22FEFC2900E1D69B /* Assets.xcassets */; };
+		BAE7BE2F22FEFC2900E1D69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE7BE2D22FEFC2900E1D69B /* LaunchScreen.storyboard */; };
+		BAE7BE3A22FEFC2A00E1D69B /* UranaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7BE3922FEFC2A00E1D69B /* UranaiAppTests.swift */; };
+		BAE7BE4522FEFC2A00E1D69B /* UranaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE7BE4422FEFC2A00E1D69B /* UranaiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE7BE3622FEFC2A00E1D69B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE7BE1922FEFC2800E1D69B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE7BE2022FEFC2800E1D69B;
+			remoteInfo = UranaiApp;
+		};
+		BAE7BE4122FEFC2A00E1D69B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE7BE1922FEFC2800E1D69B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE7BE2022FEFC2800E1D69B;
+			remoteInfo = UranaiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE7BE2122FEFC2800E1D69B /* UranaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UranaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE7BE2422FEFC2800E1D69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE7BE2622FEFC2800E1D69B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAE7BE2922FEFC2900E1D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE7BE2B22FEFC2900E1D69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE7BE2E22FEFC2900E1D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE7BE3022FEFC2900E1D69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE7BE3522FEFC2A00E1D69B /* UranaiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UranaiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE7BE3922FEFC2A00E1D69B /* UranaiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranaiAppTests.swift; sourceTree = "<group>"; };
+		BAE7BE3B22FEFC2A00E1D69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE7BE4022FEFC2A00E1D69B /* UranaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UranaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE7BE4422FEFC2A00E1D69B /* UranaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranaiAppUITests.swift; sourceTree = "<group>"; };
+		BAE7BE4622FEFC2A00E1D69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE7BE1E22FEFC2800E1D69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7BE3222FEFC2A00E1D69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7BE3D22FEFC2A00E1D69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE7BE1822FEFC2800E1D69B = {
+			isa = PBXGroup;
+			children = (
+				BAE7BE2322FEFC2800E1D69B /* UranaiApp */,
+				BAE7BE3822FEFC2A00E1D69B /* UranaiAppTests */,
+				BAE7BE4322FEFC2A00E1D69B /* UranaiAppUITests */,
+				BAE7BE2222FEFC2800E1D69B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE7BE2222FEFC2800E1D69B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7BE2122FEFC2800E1D69B /* UranaiApp.app */,
+				BAE7BE3522FEFC2A00E1D69B /* UranaiAppTests.xctest */,
+				BAE7BE4022FEFC2A00E1D69B /* UranaiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE7BE2322FEFC2800E1D69B /* UranaiApp */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7BE2422FEFC2800E1D69B /* AppDelegate.swift */,
+				BAE7BE2622FEFC2800E1D69B /* ViewController.swift */,
+				BAE7BE2822FEFC2900E1D69B /* Main.storyboard */,
+				BAE7BE2B22FEFC2900E1D69B /* Assets.xcassets */,
+				BAE7BE2D22FEFC2900E1D69B /* LaunchScreen.storyboard */,
+				BAE7BE3022FEFC2900E1D69B /* Info.plist */,
+			);
+			path = UranaiApp;
+			sourceTree = "<group>";
+		};
+		BAE7BE3822FEFC2A00E1D69B /* UranaiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7BE3922FEFC2A00E1D69B /* UranaiAppTests.swift */,
+				BAE7BE3B22FEFC2A00E1D69B /* Info.plist */,
+			);
+			path = UranaiAppTests;
+			sourceTree = "<group>";
+		};
+		BAE7BE4322FEFC2A00E1D69B /* UranaiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7BE4422FEFC2A00E1D69B /* UranaiAppUITests.swift */,
+				BAE7BE4622FEFC2A00E1D69B /* Info.plist */,
+			);
+			path = UranaiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE7BE2022FEFC2800E1D69B /* UranaiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE7BE4922FEFC2A00E1D69B /* Build configuration list for PBXNativeTarget "UranaiApp" */;
+			buildPhases = (
+				BAE7BE1D22FEFC2800E1D69B /* Sources */,
+				BAE7BE1E22FEFC2800E1D69B /* Frameworks */,
+				BAE7BE1F22FEFC2800E1D69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UranaiApp;
+			productName = UranaiApp;
+			productReference = BAE7BE2122FEFC2800E1D69B /* UranaiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE7BE3422FEFC2A00E1D69B /* UranaiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE7BE4C22FEFC2A00E1D69B /* Build configuration list for PBXNativeTarget "UranaiAppTests" */;
+			buildPhases = (
+				BAE7BE3122FEFC2A00E1D69B /* Sources */,
+				BAE7BE3222FEFC2A00E1D69B /* Frameworks */,
+				BAE7BE3322FEFC2A00E1D69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE7BE3722FEFC2A00E1D69B /* PBXTargetDependency */,
+			);
+			name = UranaiAppTests;
+			productName = UranaiAppTests;
+			productReference = BAE7BE3522FEFC2A00E1D69B /* UranaiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE7BE3F22FEFC2A00E1D69B /* UranaiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE7BE4F22FEFC2A00E1D69B /* Build configuration list for PBXNativeTarget "UranaiAppUITests" */;
+			buildPhases = (
+				BAE7BE3C22FEFC2A00E1D69B /* Sources */,
+				BAE7BE3D22FEFC2A00E1D69B /* Frameworks */,
+				BAE7BE3E22FEFC2A00E1D69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE7BE4222FEFC2A00E1D69B /* PBXTargetDependency */,
+			);
+			name = UranaiAppUITests;
+			productName = UranaiAppUITests;
+			productReference = BAE7BE4022FEFC2A00E1D69B /* UranaiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE7BE1922FEFC2800E1D69B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "金田祐作";
+				TargetAttributes = {
+					BAE7BE2022FEFC2800E1D69B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BAE7BE3422FEFC2A00E1D69B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BAE7BE2022FEFC2800E1D69B;
+					};
+					BAE7BE3F22FEFC2A00E1D69B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BAE7BE2022FEFC2800E1D69B;
+					};
+				};
+			};
+			buildConfigurationList = BAE7BE1C22FEFC2800E1D69B /* Build configuration list for PBXProject "UranaiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE7BE1822FEFC2800E1D69B;
+			productRefGroup = BAE7BE2222FEFC2800E1D69B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE7BE2022FEFC2800E1D69B /* UranaiApp */,
+				BAE7BE3422FEFC2A00E1D69B /* UranaiAppTests */,
+				BAE7BE3F22FEFC2A00E1D69B /* UranaiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE7BE1F22FEFC2800E1D69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE7BE2F22FEFC2900E1D69B /* LaunchScreen.storyboard in Resources */,
+				BAE7BE2C22FEFC2900E1D69B /* Assets.xcassets in Resources */,
+				BAE7BE2A22FEFC2900E1D69B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7BE3322FEFC2A00E1D69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7BE3E22FEFC2A00E1D69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE7BE1D22FEFC2800E1D69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE7BE2722FEFC2800E1D69B /* ViewController.swift in Sources */,
+				BAE7BE2522FEFC2800E1D69B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7BE3122FEFC2A00E1D69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE7BE3A22FEFC2A00E1D69B /* UranaiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE7BE3C22FEFC2A00E1D69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE7BE4522FEFC2A00E1D69B /* UranaiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE7BE3722FEFC2A00E1D69B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE7BE2022FEFC2800E1D69B /* UranaiApp */;
+			targetProxy = BAE7BE3622FEFC2A00E1D69B /* PBXContainerItemProxy */;
+		};
+		BAE7BE4222FEFC2A00E1D69B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE7BE2022FEFC2800E1D69B /* UranaiApp */;
+			targetProxy = BAE7BE4122FEFC2A00E1D69B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE7BE2822FEFC2900E1D69B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE7BE2922FEFC2900E1D69B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE7BE2D22FEFC2900E1D69B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE7BE2E22FEFC2900E1D69B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE7BE4722FEFC2A00E1D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE7BE4822FEFC2A00E1D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE7BE4A22FEFC2A00E1D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DH35XDGCT;
+				INFOPLIST_FILE = UranaiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.UranaiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE7BE4B22FEFC2A00E1D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DH35XDGCT;
+				INFOPLIST_FILE = UranaiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.UranaiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE7BE4D22FEFC2A00E1D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DH35XDGCT;
+				INFOPLIST_FILE = UranaiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.UranaiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UranaiApp.app/UranaiApp";
+			};
+			name = Debug;
+		};
+		BAE7BE4E22FEFC2A00E1D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DH35XDGCT;
+				INFOPLIST_FILE = UranaiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.UranaiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UranaiApp.app/UranaiApp";
+			};
+			name = Release;
+		};
+		BAE7BE5022FEFC2A00E1D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DH35XDGCT;
+				INFOPLIST_FILE = UranaiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.UranaiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UranaiApp;
+			};
+			name = Debug;
+		};
+		BAE7BE5122FEFC2A00E1D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DH35XDGCT;
+				INFOPLIST_FILE = UranaiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.UranaiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UranaiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE7BE1C22FEFC2800E1D69B /* Build configuration list for PBXProject "UranaiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE7BE4722FEFC2A00E1D69B /* Debug */,
+				BAE7BE4822FEFC2A00E1D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE7BE4922FEFC2A00E1D69B /* Build configuration list for PBXNativeTarget "UranaiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE7BE4A22FEFC2A00E1D69B /* Debug */,
+				BAE7BE4B22FEFC2A00E1D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE7BE4C22FEFC2A00E1D69B /* Build configuration list for PBXNativeTarget "UranaiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE7BE4D22FEFC2A00E1D69B /* Debug */,
+				BAE7BE4E22FEFC2A00E1D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE7BE4F22FEFC2A00E1D69B /* Build configuration list for PBXNativeTarget "UranaiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE7BE5022FEFC2A00E1D69B /* Debug */,
+				BAE7BE5122FEFC2A00E1D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE7BE1922FEFC2800E1D69B /* Project object */;
+}
