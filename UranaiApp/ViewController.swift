@@ -22,17 +22,7 @@ class ViewController: UIViewController {
         
         let bloodChosen = bloodType.selectedSegmentIndex
         
-        /* these are for testing...
-        uranaiResult.text += "\(bloodChosen)\n"
-        uranaiResult.text += "\(date.description)\n"
-        uranaiResult.text += "\(date.hashValue)\n"
-        uranaiResult.text += "\(numberLabel.text!)\n"
-        */
-        // uranai result computation
-        // date.hashValue, bloodChosen, numberChosen
-        // ex. n = date.hashvalue * bloodChosen * numberChosen
-        // n %= 5
-        // switch (n) { case 0:...
+        uranaiResult.text = ""
         
         switch ((dateHash + bloodChosen) % 4) {
         case 0:
